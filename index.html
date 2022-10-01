@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Options</title>
+    <style>
+        .no-wrap{
+            white-space: nowrap;
+        }
+        
+        body {
+            text-align: center;
+        }
+        
+        #calculate-button{
+            width: 15rem;
+            border-radius: 50%;
+            height: 15rem;
+            font-size: 2rem
+        }
+
+        form{
+            margin: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="no-wrap">Distance to playlist length calculator</h1>
+    <button id="calculate-button">Calculate</button>
+    <form>
+        <label>Language</label>
+        <select id="language-selector">
+            <option value="{0} abesti">Basque</option>
+            <option value="{0} songs" selected>English</option>
+            <option value="{0} canciones">Spanish</option>
+        </select>
+    </form>
+    
+    <script src="index.js"></script>
+</body>
+</html>

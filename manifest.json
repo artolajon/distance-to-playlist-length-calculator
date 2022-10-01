@@ -1,0 +1,16 @@
+{
+    "name": "distance-to-playlist-length-calculator", 
+    "description": "It calculates the distances using the number of songs you would listen",
+    "manifest_version": 3,
+    "version": "1.0", 
+    "content_scripts": [
+        {
+          "matches": ["https://*.google.es/maps/*","http://*.google.es/maps/*","https://*.google.com/maps/*","http://*.google.com/maps/*"],
+          "js": ["app.js"]
+        }
+    ],
+    "action": {
+      "default_popup": "index.html"
+    }
+      
+}
