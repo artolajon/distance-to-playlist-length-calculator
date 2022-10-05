@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Options</title>
+    <title>Calculator</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <style>
+        *{
+            font-family: 'Roboto';
+            color: white;
+        }
         .no-wrap{
             white-space: nowrap;
         }
         
         body {
             text-align: center;
+            background-color: rgb(30, 30, 30);
+            padding: .5rem 1.5rem;
         }
         
         #calculate-button{
-            width: 15rem;
+            width: 10rem;
             border-radius: 50%;
-            height: 15rem;
-            font-size: 2rem
+            height: 10rem;
+            font-size: 1.5rem;
+            background-color: rgb(52,52,52);
+            cursor: pointer;
+            transition: background-color 100ms linear;
+        }
+
+        #calculate-button:hover{
+            background-color: rgb(74,74,74);
+        }
+
+        #calculate-button:active{
+            background-color: rgb(27,27,27);
         }
 
         form{
             margin: 1rem;
         }
+        select{
+            background-color: rgb(52,52,52);
+        }
 
     </style>
 </head>
 <body>
-    <h1 class="no-wrap">Distance to playlist length calculator</h1>
+    <h1 class="no-wrap">Distance to playlist length <br>calculator</h1>
     <button id="calculate-button">Calculate</button>
     <form>
         <label>Language</label>
