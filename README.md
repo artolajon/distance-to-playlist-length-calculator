@@ -1,7 +1,12 @@
 # Distance To Playlist Length Calculator
 
-It calculates the distances using the number of songs you would listen.
+Google Maps extension, that calculates the distance between places by using the number of songs you would listen.
 
+## Example
+
+| Before  | After |
+| ------------- | ------------- |
+| ![Before](img/before.png "Before")  | ![After](img/after.png "After") |
 ## Installation 
 
 1. Download a zip file with the extension. 
